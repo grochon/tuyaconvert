@@ -1,0 +1,99 @@
+^CReceived SIGINT, exiting...
+Listening on 10.42.42.1:80
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=61244104e09806c19c30&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"multicast"}}&t=7&v=3.0&sign=99a5b9fd83394f39a1a47bdb197fa010
+Host: a3.tuyaus.com
+User-Agent: ESP8266SDK
+Connection: keep-alive
+
+Answer s.gw.token.get
+reply {"t":1578155313,"e":false,"success":true,"result":{"gwApiUrl":"http://10.42.42.1/gw.json","stdTimeZone":"-05:00","mqttRanges":"","timeZone":"-05:00","httpsPSKUrl":"https://10.42.42.1/gw.json","mediaMqttUrl":"10.42.42.1","gwMqttUrl":"10.42.42.1","dstIntervals":[],"mqttsUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","mediaMqttsUrl":"10.42.42.1","aispeech":"10.42.42.1"}}
+[32m[I 200104 10:28:33 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=61244104e09806c19c30&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":1,"source":"ap","path":"multicast"}}&t=7&v=3.0&sign=99a5b9fd83394f39a1a47bdb197fa010 (10.42.42.1) 53.71ms
+
+POST /gw.json?a=s.gw.dev.pk.active&et=1&gwId=61244104e09806c19c30&other={"token":"00000000"}&t=8&v=3.0&sign=86b9efbc4375402ba3c3d9d962d1ab6b
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 485
+
+payload 040DF5073BB1F312F558B948A77B5E35C8F5C6CC387B64129EC3DAFD4BDE0DEEAEBDCCB5497F00E6204ED60F4B5A8F42CF7CA322AF19A09B1E886B5BC0F5BE490D47B5BDB58AE284825DB1FDA188494A424C08D22D6E39C344DF54D88C0E656B3D217A72615D06448CE39B0C647783F079DD62C489AF1A216790F353D364C19EAED69BF89CE8EAA50CC13C629165ED80B6AB746C2D86F41B0E30AB0732DF8F64BCAAEF01B90D2E03D9F10B9B068EE03C6796EC1013838E43444B010C9A07A9DC2097DCD98755C0ACA70493C038126DA91421873AC71D1AC31545C68C60123324C057D7700A5CBFFF077EBEE2FB693EA1
+Answer s.gw.dev.pk.active
+reply {"t":1578155313,"e":false,"success":true,"result":{"schema":"[{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"}]","uid":"00000000000000000000","devEtag":"0000000000","secKey":"0000000000000000","schemaId":"0000000000","localKey":"0000000000000000"}}
+TRIGGER UPGRADE IN 10 SECONDS
+[32m[I 200104 10:28:33 web:2246][m 200 POST /gw.json?a=s.gw.dev.pk.active&et=1&gwId=61244104e09806c19c30&other={"token":"00000000"}&t=8&v=3.0&sign=86b9efbc4375402ba3c3d9d962d1ab6b (10.42.42.1) 69.24ms
+
+POST /gw.json?a=tuya.device.dynamic.config.get&et=1&gwId=61244104e09806c19c30&t=10&v=1.0&sign=876663b7441275c343d08f5506b7fdd1
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 0
+
+Answer tuya.device.dynamic.config.get
+reply {"result":"fn8oBaEAaJe3I+enO7OkYdd0LkD9WHnY6k8vmvctrJYiFsRsckuGdrZIORaZEggl9F2VBmqNqTqJcWuiX4YubPpQZcwt9Np3Q91aIc8Lq527mevrGF2WUpAllBDW/Q5l","t":1578155315,"sign":"f7d14805be20f871"}
+[32m[I 200104 10:28:35 web:2246][m 200 POST /gw.json?a=tuya.device.dynamic.config.get&et=1&gwId=61244104e09806c19c30&t=10&v=1.0&sign=876663b7441275c343d08f5506b7fdd1 (10.42.42.1) 5.70ms
+
+POST /gw.json?a=atop.online.debug.log&et=1&gwId=61244104e09806c19c30&t=1578155315&sign=42601d43dd3dbef2a57120a8b270c1c9
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 229
+
+payload {"data":4,"exp":"epc1=0x00000000, epc2=0x00000000, epc3=0x00000000, excvaddr=0x00000000, depc=0x00000000"}
+Answer atop.online.debug.log
+reply {"result":"oQwdS0ZeSlfgX+dHrKUihm4TC+La7OTVtU/1IhdrWKeFXmAf4muUZeCPnR1XSN8u","t":1578155316,"sign":"b0b70a1c0a61e26a"}
+[32m[I 200104 10:28:36 web:2246][m 200 POST /gw.json?a=atop.online.debug.log&et=1&gwId=61244104e09806c19c30&t=1578155315&sign=42601d43dd3dbef2a57120a8b270c1c9 (10.42.42.1) 59.14ms
+
+POST /gw.json?a=s.gw.update&et=1&gwId=61244104e09806c19c30&t=1578155316&v=2.0&sign=7fc5584625865711ab9eb1e2053aade1
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 229
+
+payload {"gwId":"61244104e09806c19c30","verSw":"1.0.5","bv":"5.42","pv":"2.2","cdVer":"1.0.0","devAttribute":3}
+Answer generic (s.gw.update)
+reply {"result":"JqgC3KcL+PhFfrJ6QVst1miw+mAPmvS831koo9NHc5KFXmAf4muUZeCPnR1XSN8u","t":1578155317,"sign":"4c5b1dc12710502e"}
+[32m[I 200104 10:28:37 web:2246][m 200 POST /gw.json?a=s.gw.update&et=1&gwId=61244104e09806c19c30&t=1578155316&v=2.0&sign=7fc5584625865711ab9eb1e2053aade1 (10.42.42.1) 51.62ms
+
+POST /gw.json?a=s.gw.dev.update&et=1&gwId=61244104e09806c19c30&t=1578155318&v=2.0&sign=a5d124335472fecba554a1b2f38cdd45
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 197
+
+payload {"devId":"61244104e09806c19c30","verSw":"1.0.5","cdVer":"1.0.0","devAttribute":3}
+Answer generic (s.gw.dev.update)
+reply {"result":"JqgC3KcL+PhFfrJ6QVst1vITup/wpqhH+CmXXA7vrWiFXmAf4muUZeCPnR1XSN8u","t":1578155319,"sign":"bb5f2ab33ac071ee"}
+[32m[I 200104 10:28:39 web:2246][m 200 POST /gw.json?a=s.gw.dev.update&et=1&gwId=61244104e09806c19c30&t=1578155318&v=2.0&sign=a5d124335472fecba554a1b2f38cdd45 (10.42.42.1) 46.51ms
+encoding {"data":{"gwId":"61244104e09806c19c30"},"protocol":15,"s":"1523715","t":"1578155323"} using protocol 2.2
+b"2.2!\xe3@\x9415532393\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\x0c\x15MM&|\xc7\xca\x16\xa4\xf52_\xd48\x90\xe6\xcf\xbe\x95W3r0\xe4j\xa9\xa2\xebWV\xb5\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5EL\xb6+\xa1\x07[\xeb\x12\xbc\xa9m\x8c\x982\xb3\x82\\\xbf-\xa6\xdaNAH\x15\x03rN\xb8'\xd0\xfb#"
+
+POST /gw.json?a=tuya.device.upgrade.silent.get&et=1&gwId=61244104e09806c19c30&t=1578155365&v=4.3&sign=1db54009874d0d986260c3861f58a5ac
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 37
+
+payload {"subId":null}
+Answer s.gw.upgrade.get
+reply {"result":"NXBuln3ez+yclRKuHLyrIZFa9xM+0mFb9LQj7O2LTSrUE24kPlUfewWxjy66ka8i+if2gcvjrCBj3QU86Q1qxFgdNRT4xyl9Gf145roqTAsDwsiUfyt5tWfHXxi4+rNEblx1zwlRMvjzlvm8F22DqurYQfkNM4ZEPEbCV50oPT6z8fhl53+/foI98cWuvYhTuvuYxpQtpksOTUQHtwhh4Fh4F45WNdsPHzoa4J7L/wxoSy/KNclvD0NtLs4fjrZaPMfZiNvFP5fGoJLQaM0S4JMk5QV3H6P5gUMc3eruvOg=","t":1578155366,"sign":"efd45c1f90df4195"}
+[32m[I 200104 10:29:26 web:2246][m 200 POST /gw.json?a=tuya.device.upgrade.silent.get&et=1&gwId=61244104e09806c19c30&t=1578155365&v=4.3&sign=1db54009874d0d986260c3861f58a5ac (10.42.42.1) 46.87ms
+
+POST /gw.json?a=s.gw.upgrade.updatestatus&et=1&gwId=61244104e09806c19c30&t=1578155366&sign=2f3483d179bdb5fa12927811ea5f1503
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 69
+
+payload {"upgradeStatus":2}
+Answer s.gw.upgrade.updatestatus
+reply {"result":"JqgC3KcL+PhFfrJ6QVst1kr2iF6pNKXPmobCXfkCggCFXmAf4muUZeCPnR1XSN8u","t":1578155366,"sign":"59d474d81ca053e8"}
+[32m[I 200104 10:29:26 web:2246][m 200 POST /gw.json?a=s.gw.upgrade.updatestatus&et=1&gwId=61244104e09806c19c30&t=1578155366&sign=2f3483d179bdb5fa12927811ea5f1503 (10.42.42.1) 56.46ms
+[32m[I 200104 10:29:33 web:2246][m 206 HEAD /files/upgrade.bin (10.42.42.10) 25.29ms
+[32m[I 200104 10:29:37 web:2246][m 200 GET /files/upgrade.bin (10.42.42.10) 3758.13ms

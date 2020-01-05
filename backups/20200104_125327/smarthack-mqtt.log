@@ -1,0 +1,28 @@
+^C1578155457: Socket error on client 61244104e09806c19c30, disconnecting.
+1578155457: mosquitto version 1.5.7 terminating
+1578163796: mosquitto version 1.5.7 starting
+1578163796: Using default config.
+1578163796: Opening ipv4 listen socket on port 1883.
+1578163796: Opening ipv6 listen socket on port 1883.
+1578163936: New connection from 10.42.42.1 on port 1883.
+1578163936: New client connected from 10.42.42.1 as 48215068d8f15baeb555 (c1, k60, u'4N4QXupA756l0h0/X7fpbIC1').
+1578163936: No will message specified.
+1578163936: Sending CONNACK to 48215068d8f15baeb555 (0, 0)
+1578163936: Received SUBSCRIBE from 48215068d8f15baeb555
+1578163936:     smart/device/in/48215068d8f15baeb555 (QoS 0)
+1578163936: 48215068d8f15baeb555 0 smart/device/in/48215068d8f15baeb555
+1578163936: Sending SUBACK to 48215068d8f15baeb555
+1578163944: New connection from 127.0.0.1 on port 1883.
+1578163944: New client connected from 127.0.0.1 as e7ba778e-9f59-402e-922e-22651dcf7535 (c1, k60).
+1578163944: No will message specified.
+1578163944: Sending CONNACK to e7ba778e-9f59-402e-922e-22651dcf7535 (0, 0)
+1578163944: Received PUBLISH from e7ba778e-9f59-402e-922e-22651dcf7535 (d0, q0, r0, m0, 'smart/device/in/48215068d8f15baeb555', ... (111 bytes))
+1578163944: Sending PUBLISH to 48215068d8f15baeb555 (d0, q0, r0, m0, 'smart/device/in/48215068d8f15baeb555', ... (111 bytes))
+1578163944: Received DISCONNECT from e7ba778e-9f59-402e-922e-22651dcf7535
+1578163944: Client e7ba778e-9f59-402e-922e-22651dcf7535 disconnected.
+1578163996: Received PINGREQ from 48215068d8f15baeb555
+1578163996: Sending PINGRESP to 48215068d8f15baeb555
+1578163996: Received PUBLISH from 48215068d8f15baeb555 (d0, q0, r0, m0, 'smart/device/out/48215068d8f15baeb555', ... (80 bytes))
+1578163999: Received PUBLISH from 48215068d8f15baeb555 (d0, q0, r0, m0, 'smart/device/out/48215068d8f15baeb555', ... (81 bytes))
+1578164089: Client 48215068d8f15baeb555 has exceeded timeout, disconnecting.
+1578164089: Socket error on client 48215068d8f15baeb555, disconnecting.

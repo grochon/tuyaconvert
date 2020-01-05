@@ -1,0 +1,93 @@
+wlan0: interface state ENABLED->DISABLED
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-DISABLED 
+wlan0: CTRL-EVENT-TERMINATING 
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+AP closed
+Stopping DNSMASQ server...
+Configuring AP interface...
+RTNETLINK answers: File exists
+RTNETLINK answers: File exists
+Starting DNSMASQ server...
+Starting AP on wlan0...
+Configuration file: /dev/stdin
+wlan0: Could not connect to kernel driver
+Using interface wlan0 with hwaddr dc:a6:32:33:a0:53 and ssid "vtrust-flash"
+wlan0: interface state UNINITIALIZED->ENABLED
+wlan0: AP-ENABLED 
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED e0:98:06:c1:9c:30
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED e0:98:06:c1:9c:30
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED e0:98:06:c1:9c:30
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-DISCONNECTED e0:98:06:c1:9c:30

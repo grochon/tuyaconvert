@@ -1,0 +1,14 @@
+Configuring AP interface...
+RTNETLINK answers: File exists
+Starting DNSMASQ server...
+Starting AP on wlan0...
+Configuration file: /dev/stdin
+wlan0: Could not connect to kernel driver
+Using interface wlan0 with hwaddr dc:a6:32:33:a0:53 and ssid "vtrust-flash"
+wlan0: interface state UNINITIALIZED->ENABLED
+wlan0: AP-ENABLED 
+wlan0: AP-STA-CONNECTED 7a:a5:b3:0b:39:3b
+wlan0: AP-STA-CONNECTED 2c:f4:32:e1:f3:d3
+wlan0: AP-STA-DISCONNECTED 2c:f4:32:e1:f3:d3
+wlan0: AP-STA-CONNECTED 2c:f4:32:e1:f3:d3
+wlan0: AP-STA-DISCONNECTED 2c:f4:32:e1:f3:d3

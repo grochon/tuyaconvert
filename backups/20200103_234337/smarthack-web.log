@@ -1,0 +1,106 @@
+Listening on 10.42.42.1:80
+[32m[I 200103 23:38:10 web:2246][m 302 GET /generate_204 (10.42.42.27) 3.08ms
+[32m[I 200103 23:38:19 web:2246][m 302 GET /generate_204 (10.42.42.27) 2.00ms
+[32m[I 200103 23:38:19 web:2246][m 200 GET / (10.42.42.27) 2.96ms
+[32m[I 200103 23:38:19 web:2246][m 302 GET /favicon.ico (10.42.42.27) 1.87ms
+[32m[I 200103 23:38:19 web:2246][m 304 GET / (10.42.42.27) 1.98ms
+[32m[I 200103 23:38:20 web:2246][m 302 GET /generate_204 (10.42.42.27) 2.12ms
+[32m[I 200103 23:38:20 web:2246][m 302 GET /generate_204 (10.42.42.27) 1.73ms
+
+GET /gw.json?a=s.gw.token.get&et=1&gwId=785215042cf432e1f3d3&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":2,"source":"ap","path":"broadcast"}}&t=7&v=3.0&sign=1ea43039399d966a1aa39b1c8d87da4d
+Host: a3.tuyaus.com
+User-Agent: ESP8266SDK
+Connection: keep-alive
+
+Answer s.gw.token.get
+reply {"t":1578116544,"e":false,"success":true,"result":{"gwApiUrl":"http://10.42.42.1/gw.json","stdTimeZone":"-05:00","mqttRanges":"","timeZone":"-05:00","httpsPSKUrl":"https://10.42.42.1/gw.json","mediaMqttUrl":"10.42.42.1","gwMqttUrl":"10.42.42.1","dstIntervals":[],"mqttsUrl":"10.42.42.1","mqttsPSKUrl":"10.42.42.1","mediaMqttsUrl":"10.42.42.1","aispeech":"10.42.42.1"}}
+[32m[I 200103 23:42:24 web:2246][m 200 GET /gw.json?a=s.gw.token.get&et=1&gwId=785215042cf432e1f3d3&other={"token":"00000000","region":"US","tlinkStat":{"configure":"smartconfig","time":2,"source":"ap","path":"broadcast"}}&t=7&v=3.0&sign=1ea43039399d966a1aa39b1c8d87da4d (10.42.42.1) 51.98ms
+
+POST /gw.json?a=s.gw.dev.pk.active&et=1&gwId=785215042cf432e1f3d3&other={"token":"00000000"}&t=7&v=3.0&sign=dc0e7c0dfee2c14c97fb51bc8c850276
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 485
+
+payload 4AF5D8399E50DBDBB01ED743F03CC7152E8130A67154BB2CDED2B78421E81BE20EAB852191658F34C3F7DB3AD96E7FD27844EB2CA40F3EC4D1845B0C3487C0BAB0694C61610552018248C5A60660FEA2B78D284FA6F3203E62A6A60DA20959C9ABA6F3084A231894B4D3ADB8160A7E5E2D5D951E96470BA123B4372D55387C96C376B8D49224821B85E02B17F346432B6F90592A9A1055F3D53F4532D78B571BB6AB0846EBB28587A26E03B32A810C773636A84753FD1144711DFF47AC5E816C556FCF01F658BF4D0D8845D3656843AF7B17507D5DD189CB9A4FAFCD361ED0FAD88B6DF9A2834E05E26421BB7800303E
+Answer s.gw.dev.pk.active
+reply {"t":1578116545,"e":false,"success":true,"result":{"schema":"[{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"},{\"mode\":\"rw\",\"property\":{\"type\":\"bool\"},\"id\":1,\"type\":\"obj\"}]","uid":"00000000000000000000","devEtag":"0000000000","secKey":"0000000000000000","schemaId":"0000000000","localKey":"0000000000000000"}}
+TRIGGER UPGRADE IN 10 SECONDS
+[32m[I 200103 23:42:25 web:2246][m 200 POST /gw.json?a=s.gw.dev.pk.active&et=1&gwId=785215042cf432e1f3d3&other={"token":"00000000"}&t=7&v=3.0&sign=dc0e7c0dfee2c14c97fb51bc8c850276 (10.42.42.1) 67.70ms
+
+POST /gw.json?a=tuya.device.dynamic.config.get&et=1&gwId=785215042cf432e1f3d3&t=9&v=1.0&sign=3fb87fb0a47acc456ebff2ded5a49b4c
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 0
+
+Answer tuya.device.dynamic.config.get
+reply {"result":"fn8oBaEAaJe3I+enO7OkYdd0LkD9WHnY6k8vmvctrJYXO9+/6lvlMXPI3Pv/7Pwr9F2VBmqNqTqJcWuiX4YubNsNgsY0DonaEDnnEaGZ0aq7mevrGF2WUpAllBDW/Q5l","t":1578116546,"sign":"7344ffc36f4fe2f4"}
+[32m[I 200103 23:42:26 web:2246][m 200 POST /gw.json?a=tuya.device.dynamic.config.get&et=1&gwId=785215042cf432e1f3d3&t=9&v=1.0&sign=3fb87fb0a47acc456ebff2ded5a49b4c (10.42.42.1) 4.65ms
+
+POST /gw.json?a=atop.online.debug.log&et=1&gwId=785215042cf432e1f3d3&t=1578116547&sign=bc6d21959b1bf6219196fe29158f8f84
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 229
+
+payload {"data":4,"exp":"epc1=0x00000000, epc2=0x00000000, epc3=0x00000000, excvaddr=0x00000000, depc=0x00000000"}
+Answer atop.online.debug.log
+reply {"result":"oQwdS0ZeSlfgX+dHrKUihthPcRW/UC2W2r0QQUUEZliFXmAf4muUZeCPnR1XSN8u","t":1578116548,"sign":"6e94bb9d6fc44a68"}
+[32m[I 200103 23:42:28 web:2246][m 200 POST /gw.json?a=atop.online.debug.log&et=1&gwId=785215042cf432e1f3d3&t=1578116547&sign=bc6d21959b1bf6219196fe29158f8f84 (10.42.42.1) 47.33ms
+
+POST /gw.json?a=s.gw.update&et=1&gwId=785215042cf432e1f3d3&t=1578116549&v=2.0&sign=3d630edf9e58dace0d5d363f9b092084
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 229
+
+payload {"gwId":"785215042cf432e1f3d3","verSw":"1.0.5","bv":"5.42","pv":"2.2","cdVer":"1.0.0","devAttribute":3}
+Answer generic (s.gw.update)
+reply {"result":"JqgC3KcL+PhFfrJ6QVst1uvae2uWD9o2P1L8XksCYuWFXmAf4muUZeCPnR1XSN8u","t":1578116550,"sign":"5448f5adc43b377e"}
+[32m[I 200103 23:42:30 web:2246][m 200 POST /gw.json?a=s.gw.update&et=1&gwId=785215042cf432e1f3d3&t=1578116549&v=2.0&sign=3d630edf9e58dace0d5d363f9b092084 (10.42.42.1) 46.60ms
+
+POST /gw.json?a=s.gw.dev.update&et=1&gwId=785215042cf432e1f3d3&t=1578116550&v=2.0&sign=db4aed8c078fca43ddf6bf502be8c6cc
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 197
+
+payload {"devId":"785215042cf432e1f3d3","verSw":"1.0.5","cdVer":"1.0.0","devAttribute":3}
+Answer generic (s.gw.dev.update)
+reply {"result":"JqgC3KcL+PhFfrJ6QVst1n/eG3JjCstkYDtYBOhY9ViFXmAf4muUZeCPnR1XSN8u","t":1578116551,"sign":"4b1558df36ce13b5"}
+[32m[I 200103 23:42:31 web:2246][m 200 POST /gw.json?a=s.gw.dev.update&et=1&gwId=785215042cf432e1f3d3&t=1578116550&v=2.0&sign=db4aed8c078fca43ddf6bf502be8c6cc (10.42.42.1) 46.94ms
+encoding {"data":{"gwId":"785215042cf432e1f3d3"},"protocol":15,"s":"1523715","t":"1578116555"} using protocol 2.2
+b'2.2d\xd8z\xe211655565\xb7\x98\xa7\x08\xc0\xc7\xa5\xc2JB\x9c_9\xed\x91m\x10\x80\x1f P\x8c\xc3Y\x17}f\xf1c\xd9\x8e\xcb\xd8#\x03\xa6\xbac\xcf\xd5H5#\x87\x7f9\x0b\xab\x91\xfa\xef\xd4\xa8\xffL\x1a\xef\x01\r\x8e\xbd\xf5EL\\\x1fBr\xc2\x04V7\xa8\xcc_\xfc\xee\x8bG\x81Z\xa6\x1b\xc72$Zdu\x1aBeF\x0e\x0b\xa5'
+
+POST /gw.json?a=tuya.device.upgrade.silent.get&et=1&gwId=785215042cf432e1f3d3&t=1578116598&v=4.3&sign=2792ec7ddd51da1a2153f58330ca1f73
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 37
+
+payload {"subId":null}
+Answer s.gw.upgrade.get
+reply {"result":"NXBuln3ez+yclRKuHLyrIZFa9xM+0mFb9LQj7O2LTSrUE24kPlUfewWxjy66ka8i+if2gcvjrCBj3QU86Q1qxFgdNRT4xyl9Gf145roqTAsDwsiUfyt5tWfHXxi4+rNEblx1zwlRMvjzlvm8F22DqurYQfkNM4ZEPEbCV50oPT6z8fhl53+/foI98cWuvYhTuvuYxpQtpksOTUQHtwhh4Fh4F45WNdsPHzoa4J7L/wxoSy/KNclvD0NtLs4fjrZa1e2RIaXnxsnHXPNFMIjDVpMk5QV3H6P5gUMc3eruvOg=","t":1578116598,"sign":"e5e8309685ff53c4"}
+[32m[I 200103 23:43:18 web:2246][m 200 POST /gw.json?a=tuya.device.upgrade.silent.get&et=1&gwId=785215042cf432e1f3d3&t=1578116598&v=4.3&sign=2792ec7ddd51da1a2153f58330ca1f73 (10.42.42.1) 48.12ms
+
+POST /gw.json?a=s.gw.upgrade.updatestatus&et=1&gwId=785215042cf432e1f3d3&t=1578116598&sign=0f0c0f46c8729f6a8cd96d717c248655
+Host: 10.42.42.1
+User-Agent: ESP8266SDK
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 69
+
+payload {"upgradeStatus":2}
+Answer s.gw.upgrade.updatestatus
+reply {"result":"JqgC3KcL+PhFfrJ6QVst1hqxwdmdaqeMgzg8exR7ODOFXmAf4muUZeCPnR1XSN8u","t":1578116598,"sign":"87c297fc59973858"}
+[32m[I 200103 23:43:18 web:2246][m 200 POST /gw.json?a=s.gw.upgrade.updatestatus&et=1&gwId=785215042cf432e1f3d3&t=1578116598&sign=0f0c0f46c8729f6a8cd96d717c248655 (10.42.42.1) 56.53ms
+[32m[I 200103 23:43:27 web:2246][m 206 HEAD /files/upgrade.bin (10.42.42.34) 25.81ms
+[32m[I 200103 23:43:31 web:2246][m 200 GET /files/upgrade.bin (10.42.42.34) 3862.58ms
+[32m[I 200103 23:44:53 web:2246][m 200 GET /files/tasmota.bin (10.42.42.42) 13328.73ms

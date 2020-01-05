@@ -1,0 +1,11 @@
+VTRUST-FLASH 1.5
+(c) VTRUST GMBH https://www.vtrust.de/35c3/
+READ FLASH: http://10.42.42.42/backup
+ChipID: aeb555
+MAC: D8:F1:5B:AE:B5:55
+BootVersion: 7
+BootMode: normal
+FlashMode: 1M DOUT @ 40MHz
+FlashChipId: 144051
+FlashChipRealSize: 1024K
+Active Userspace: user2 0x81000

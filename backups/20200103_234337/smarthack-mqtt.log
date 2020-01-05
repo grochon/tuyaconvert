@@ -1,0 +1,26 @@
+1578116219: mosquitto version 1.5.7 starting
+1578116219: Using default config.
+1578116219: Opening ipv4 listen socket on port 1883.
+1578116219: Opening ipv6 listen socket on port 1883.
+1578116547: New connection from 10.42.42.1 on port 1883.
+1578116547: New client connected from 10.42.42.1 as 785215042cf432e1f3d3 (c1, k60, u'wyUQXq3hRPIvcv0DyZVEyHY0').
+1578116547: No will message specified.
+1578116547: Sending CONNACK to 785215042cf432e1f3d3 (0, 0)
+1578116547: Received SUBSCRIBE from 785215042cf432e1f3d3
+1578116547:     smart/device/in/785215042cf432e1f3d3 (QoS 0)
+1578116547: 785215042cf432e1f3d3 0 smart/device/in/785215042cf432e1f3d3
+1578116547: Sending SUBACK to 785215042cf432e1f3d3
+1578116555: New connection from 127.0.0.1 on port 1883.
+1578116555: New client connected from 127.0.0.1 as 5676f0f0-7f26-4119-9a78-d3fe6f08a338 (c1, k60).
+1578116555: No will message specified.
+1578116555: Sending CONNACK to 5676f0f0-7f26-4119-9a78-d3fe6f08a338 (0, 0)
+1578116555: Received PUBLISH from 5676f0f0-7f26-4119-9a78-d3fe6f08a338 (d0, q0, r0, m0, 'smart/device/in/785215042cf432e1f3d3', ... (111 bytes))
+1578116555: Sending PUBLISH to 785215042cf432e1f3d3 (d0, q0, r0, m0, 'smart/device/in/785215042cf432e1f3d3', ... (111 bytes))
+1578116555: Received DISCONNECT from 5676f0f0-7f26-4119-9a78-d3fe6f08a338
+1578116555: Client 5676f0f0-7f26-4119-9a78-d3fe6f08a338 disconnected.
+1578116607: Received PUBLISH from 785215042cf432e1f3d3 (d0, q0, r0, m0, 'smart/device/out/785215042cf432e1f3d3', ... (80 bytes))
+1578116608: Received PINGREQ from 785215042cf432e1f3d3
+1578116608: Sending PINGRESP to 785215042cf432e1f3d3
+1578116609: Received PUBLISH from 785215042cf432e1f3d3 (d0, q0, r0, m0, 'smart/device/out/785215042cf432e1f3d3', ... (81 bytes))
+1578116699: Client 785215042cf432e1f3d3 has exceeded timeout, disconnecting.
+1578116699: Socket error on client 785215042cf432e1f3d3, disconnecting.
